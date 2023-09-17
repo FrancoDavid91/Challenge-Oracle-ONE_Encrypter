@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Encrypter - Oracle ONE</title>
 </head>
+
 <body>
-    
+    <header>
+        <img class="img-logo" src="/assets/vectorlogoAlura.svg" alt="logo de Alura Latam">
+        <h1>Encrypter - Oracle ONE</h1>
+    </header>
+    <main class="container">
+        <section class="flex-container">
+            <textarea class="texto-a-traducir" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+            <div>
+                <p class="informacion">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="button-container">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class = "texto-encriptado" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>🧠 Desarrollado por <a href="https://github.com/FrancoDavid91" target="_blank">Franco Fazzolari</a></p>
+    </footer>
 </body>
+
 </html>
